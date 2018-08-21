@@ -11,8 +11,8 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Svenska V" startnode="1" creator="Twine" creator-version="2.2.1" ifid="AC6F68F7-82FF-4597-9CB9-2A582F25F4F5" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="frukost1" tags="" position="685.5,49" size="100,100">(set: $lottaTalk to 0)
-&quot;So,&quot; Sven tells you, &quot;Today is a holiday. We shall go to the Valborgsaften festival in the square.&quot;
+<tw-storydata name="Svenska V" startnode="29" creator="Twine" creator-version="2.2.1" ifid="AC6F68F7-82FF-4597-9CB9-2A582F25F4F5" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="frukost1" tags="" position="749.8333435058594,2" size="100,100">(set: $lottaTalk to 0)
+&quot;So,&quot; Sven tells you between bites of his scrambled eggs, &quot;Today is a holiday. We shall go to the Valborgsaften festival in the square.&quot;
 
 &quot;Vad är Valborgsaften?&quot; You ask as you bite into a piping hot [[kanelbulle]]. 
 
@@ -20,15 +20,15 @@
 
 Before he can continue, Lotta comes in the front door with the morning paper, &quot;Titta, Sven!&quot;
 
-[[Titta på tidningen|frukost2]]</tw-passagedata><tw-passagedata pid="2" name="frukost2" tags="" position="849.5,73" size="100,100">You look at the front page of the newspaper,
+[[Titta på tidningen|frukost2]]</tw-passagedata><tw-passagedata pid="2" name="frukost2" tags="" position="934.8333435058594,2" size="100,100">You look at the front page of the newspaper,
 
-&quot;BIG BENNY AR DÖD!&quot;
+&quot;BIG BENNY ÄR DÖD!&quot;
 
 &quot;Mörda!&quot; Lotta exclaims.
 
 The look on her face says it all.
 
-[[&quot;Mörda?!&quot;|frukost3]]</tw-passagedata><tw-passagedata pid="3" name="frukost4" tags="" position="1127.5,76" size="100,100">You decide to share your theories with Lotta, &quot;There are three suspects,&quot; you begin before remembering she doesn&#39;t speak English, &quot;Um...det finns tre personer vem kanske är mördare.&quot; 
+[[&quot;Mörda?!&quot;|frukost3]]</tw-passagedata><tw-passagedata pid="3" name="frukost4" tags="" position="1261.5,12" size="100,100">You decide to share your theories with Lotta, &quot;There are three suspects,&quot; you begin before remembering she doesn&#39;t speak English, &quot;Um...det finns tre personer vem kanske är mördare.&quot; 
 
 &quot;Vem?&quot; She asks you, her interest piqued.
 
@@ -39,7 +39,7 @@ The look on her face says it all.
 [[Discuss Frederick, the gambler|gambler?]]
 
 (if: $lottaTalk is 3) [You ask Lotta, [[&quot;Vad ska du gör?&quot;|frukost5]]]
-(if: $lottaTalk &gt;3) [You ask Lotta, [[&quot;Vad ska du gör?&quot;|frukost5]]]</tw-passagedata><tw-passagedata pid="4" name="neighbor?" tags="" position="994.5,226" size="100,100">(set: $lottaTalk to $lottaTalk +1)
+(if: $lottaTalk &gt;3) [You ask Lotta, [[&quot;Vad ska du gör?&quot;|frukost5]]]</tw-passagedata><tw-passagedata pid="4" name="neighbor?" tags="" position="1062.8333435058594,162" size="100,100">(set: $lottaTalk to $lottaTalk +1)
 
 &quot;Lars är en jägare, och Bennys kroppe var i skogen.&quot; You say.
 
@@ -47,8 +47,8 @@ The look on her face says it all.
 
 But his motive? Hmm..
 
-[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="5" name="butcher?" tags="" position="1125.5,242" size="100,100">(set: $lottaTalk to $lottaTalk +1)
-&quot;Annika är stans slaktare. Hon har ett nytt företag. Hon lagar mat för djur.&quot; You tell her, remembering the butcher&#39;s new side business.
+[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="5" name="butcher?" tags="" position="1247.8333435058594,178" size="100,100">(set: $lottaTalk to $lottaTalk +1)
+&quot;Annika är stans slaktare. Hon har ett nytt företag. Hon lagar mat för djur.&quot; You tell her, remembering the butcher&#39;s loan application.
 
 &quot;Ja visst,&quot; Lotta continues your line of thought, &quot;Men är Bennys mat mycket billigt, så har Annika många problem med pengar.&quot;
 
@@ -56,7 +56,7 @@ But his motive? Hmm..
 
 &quot;Men är hon snäll!&quot; Sven protests. &quot;Hon är mycket snäll med djur.&quot;
 
-[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="6" name="gambler?" tags="" position="1277.5,226" size="100,100">(set: $lottaTalk to $lottaTalk +1)
+[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="6" name="gambler?" tags="" position="1483.5,196" size="100,100">(set: $lottaTalk to $lottaTalk +1)
 &quot;Fredrik är var fotbollsklubb älskare. Han älskar ingen - bara fotboll.&quot; You begin to elaborate. &quot;He is a gambler...&quot; 
 
 You turn to Sven for help, &quot;En spelare.&quot;
@@ -65,17 +65,11 @@ You turn to Sven for help, &quot;En spelare.&quot;
 
 &quot;Jag vet Fredrik,&quot; Lotta says slowly, &quot;Kan han vara en mördare?&quot;
 
-[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="7" name="frukost5" tags="" position="1475.5,142" size="100,100">&quot;Jag behöver tycke.&quot; Lotta says, lost in thought. 
+[[Discuss someone else|frukost4]]</tw-passagedata><tw-passagedata pid="7" name="frukost5" tags="" position="1609.5,78" size="100,100">&quot;Jag behöver tycke.&quot; Lotta says, lost in thought. 
 
 &quot;Well, we may as well go to the town. Everyone will be there.&quot; Sven says. &quot;Vi kan kanske läse flera om Benny från polisen.&quot; He adds, getting up from the table.
 
-[[Clean up the table|road]]</tw-passagedata><tw-passagedata pid="8" name="road" tags="" position="1438.5,501" size="100,100">(set: $fire to 0)
-(set: $kiosk to 0)
-(set: $kyrken to 0)
-(set: $restaurangen to 0)
-(set: $man to 0)
-(set: $couple to 0)
-You clean up breakfast and a few hours later head back into [[town|torget]] for the celebration. Sven drives, chatting away happily while Lotta looks deep in thought.</tw-passagedata><tw-passagedata pid="9" name="torget" tags="" position="997.5,792" size="100,100">You are back in the town square. The snow and slush has been cleared and the townspeople are gathering for the holiday. 
+[[Clean up the table|road]]</tw-passagedata><tw-passagedata pid="8" name="road" tags="" position="1572.5,403" size="100,100">(set: $fire to 0)(set: $kiosk to 0)(set: $kyrken to 0)(set: $restaurangen to 0)(set: $man to 0)(set: $couple to 0)You and Sven clean up breakfast and a few hours later everyone heads into [[town|torget]] for the celebration. Sven drives, chatting away happily while Lotta remains deep in thought.</tw-passagedata><tw-passagedata pid="9" name="torget" tags="" position="1131.5,703" size="100,100">You are back in the town square. The snow and slush has been cleared and the townspeople are gathering for the holiday. 
 
 You notice the (if: $fire is 0)[[[logs|bonfire]]](if: $fire is 1)[logs] are all upright and a large amount of tinder has been placed underneath. The bearded man you met previously is stoking the flames.
 
@@ -87,7 +81,7 @@ The (if: $kyrken is 0)[[[church|kyrken]]](if: $kyrken is 1)[church] is finally o
 
 The (if: $restaurangen is 0)[[[restaurant|rest1]]](if: $restaurangen is 1)[restaurant] is open too. 
 
-(if: $fire is 1 and $kiosk is 1 and $kyrken is 1 and $restaurangen is 1)[(goto: &quot;speech1&quot;)]</tw-passagedata><tw-passagedata pid="10" name="bonfire" tags="" position="1001.5,945" size="100,100">(set: $fire to 1)
+(if: $fire is 1 and $kiosk is 1 and $kyrken is 1 and $restaurangen is 1)[(goto: &quot;speech1&quot;)]</tw-passagedata><tw-passagedata pid="10" name="bonfire" tags="" position="1135.5,867" size="100,100">(set: $fire to 1)
 
 The bearded man stokes the flames. Nearby another man grabs some more wood while speaking to a woman
 
@@ -95,41 +89,35 @@ The bearded man stokes the flames. Nearby another man grabs some more wood while
 
 (if: $couple is 0)[[[Listen in on the couple|bonfire2]]]
 
-(if: $man is 1 and $couple is 1)[(print:[[Go back to Sven and Lotta|torget]])]</tw-passagedata><tw-passagedata pid="11" name="kiosk" tags="" position="804.5,958" size="100,100">(set: $kiosk to 1)
+(if: $man is 1 and $couple is 1)[(print:[[Go back to Sven and Lotta|torget]])]</tw-passagedata><tw-passagedata pid="11" name="kiosk" tags="" position="918.5,894" size="100,100">(set: $kiosk to 1)
 
 The kiosk salesman is hurredly selling newspapers - it looks like everyone is buying them!
 
 [[Look at the people|kiosk2]]
-</tw-passagedata><tw-passagedata pid="12" name="kyrken" tags="" position="957.5,592" size="100,100">(set: $kyrken to 1)
+</tw-passagedata><tw-passagedata pid="12" name="kyrken" tags="" position="1091.5,528" size="100,100">(set: $kyrken to 1)
 You enter the church. The noise of the crowd dissapears as the thick wood doors close behind you. It is dusk outside. The interior of the church is lit by candles.
 
 The priest is off to one side on his phone, oblivious to his surroundings. 
 
 Someone is sitting in the front pew, silently sobbing.
 [[Go to the pew|kyrken2]]
-</tw-passagedata><tw-passagedata pid="13" name="rest1" tags="" position="1195.5,889" size="100,100">(set: $restaurangen to 1)
+</tw-passagedata><tw-passagedata pid="13" name="rest1" tags="" position="1316.5,788" size="100,100">(set: $restaurangen to 1)
 (set: $Q1 to 0)
 You enter the restaurant. There are a few tables occupied, but most people are outside watching the bonfire. 
 
 [[Talk to the bartender|rest2]]
-[[Leave the bar|torget]]</tw-passagedata><tw-passagedata pid="14" name="rest2" tags="" position="1342.5,895" size="100,100">&quot;Hej, vad skulle du ha?&quot; He asks you.
+[[Leave the bar|torget]]</tw-passagedata><tw-passagedata pid="14" name="rest2" tags="" position="1446.5,900" size="100,100">&quot;Hej, vad skulle du ha?&quot; He asks you.
 
 (link: &quot;Jag ska ha en öl&quot;)[(set: $Q1 to 1)(goto:&quot;rest3&quot;)]
 
 (link: &quot;Jag ska ha en mjölk&quot;)[(goto:&quot;rest3&quot;)]
-</tw-passagedata><tw-passagedata pid="15" name="rest3" tags="" position="1463.5,995" size="100,100">(if: $Q1 is 1)[The bartender smiles and pours you a beer. &quot;För Benny. Så synd.&quot; He says. You decide to probe a bit, &quot;Tycker Annika inte om Benny. Var är hon?&quot;
+</tw-passagedata><tw-passagedata pid="15" name="rest3" tags="" position="1648.5,931" size="100,100">(if: $Q1 is 1)[The bartender smiles and pours you a beer. &quot;För Benny. Så synd.&quot; He says. You decide to probe a bit, &quot;Tycker Annika inte om Benny. Var är hon?&quot;
 
 &quot;Ja visst,&quot; he agrees, &quot;Det vet jag inte. Annika är inte här.&quot;
 
 [[Finish your drink|rest4]]](if: $Q1 is 0)[He hands you your milk and you pay with some money Sven gave you earlier.
 
-[[Finish your drink|rest4]]]</tw-passagedata><tw-passagedata pid="16" name="rest4" tags="" position="1552.5,846" size="100,100">You down your drink and [[leave the bar|torget]].</tw-passagedata><tw-passagedata pid="17" name="speech3" tags="" position="258.5,553" size="100,100">It&#39;s Annika! She is standing near the back of the crowd looking smug. You turn to Lotta and begin to [[speak|decision]].</tw-passagedata><tw-passagedata pid="18" name="decision" tags="" position="239.5,356" size="100,100">&quot;Lotta! Mördaren är...&quot; 
-
-[[Lars|neighbor]], the hunter!
-
-[[Annika|butcher]], the butcher!
-
-[[Fredrik|gambler]], the gambler!</tw-passagedata><tw-passagedata pid="19" name="neighbor" tags="" position="71.5,197" size="100,100">How does it end? 
+[[Finish your drink|rest4]]]</tw-passagedata><tw-passagedata pid="16" name="rest4" tags="" position="1686.5,782" size="100,100">You down your drink and [[leave the bar|torget]].</tw-passagedata><tw-passagedata pid="17" name="speech2a" tags="" position="612.5,572" size="100,100">It&#39;s Annika. She is standing near the back of the crowd. You turn back to listen to the [[speaker|speech2]].</tw-passagedata><tw-passagedata pid="18" name="butcher" tags="" position="385.5,197" size="100,100">How does it end? 
 
 Who is the killer??
 
@@ -139,7 +127,7 @@ Can you get the cinnamon bun recipe from Lotta????
 
 Please stay tuned for updates!
 
-[[end]]</tw-passagedata><tw-passagedata pid="20" name="butcher" tags="" position="281.5,204" size="100,100">How does it end? 
+[[end]]</tw-passagedata><tw-passagedata pid="19" name="gambler" tags="" position="580.5,253" size="100,100">How does it end? 
 
 Who is the killer??
 
@@ -149,33 +137,29 @@ Can you get the cinnamon bun recipe from Lotta????
 
 Please stay tuned for updates!
 
-[[end]]</tw-passagedata><tw-passagedata pid="21" name="gambler" tags="" position="446.5,278" size="100,100">How does it end? 
-
-Who is the killer??
-
-Will you discover your true identity???
-
-Can you get the cinnamon bun recipe from Lotta????
-
-Please stay tuned for updates!
-
-[[end]]</tw-passagedata><tw-passagedata pid="22" name="kyrken3" tags="" position="1130.5,445" size="100,100">&quot;Benny, Benny. Det är mitt fel! Min synd!&quot; he says between sniffles. What does he mean by that? Is he confessing his guilt?
+[[end]]</tw-passagedata><tw-passagedata pid="20" name="kyrken3" tags="" position="1264.5,381" size="100,100">&quot;Benny, Benny. Det är mitt fel! Min synd!&quot; he says between sniffles. What does he mean by that? Is he confessing his guilt?
 
 Lars notices you watching him and quickly collects himself. He wipes the tears from his eyes and runs out the door.
 
-[[Leave the church|torget]]</tw-passagedata><tw-passagedata pid="23" name="end" tags="" position="258.5,34" size="100,100">Congratulations! You have completed the final chapter of HOW DO YOU SAY MURDER IN SWEDISH.
+[[Leave the church|torget]]</tw-passagedata><tw-passagedata pid="21" name="end" tags="" position="369.5,2" size="100,100">Congratulations! You have completed the final chapter of HOW DO YOU SAY MURDER IN SWEDISH.
 
 An interactive text for beginning (A1) learners
 
 Copyright 2018, James Smrikarov
 
-If you have any mistakes or comments please email me by clicking (link: &quot;here&quot;)[(open-url: &quot;mailto:jsmrikarov@gmail.com&quot;)].
+If you see any mistakes or have comments please email me by clicking (link: &quot;here&quot;)[(open-url: &quot;mailto:jsmrikarov@gmail.com&quot;)].
 
 You can also visit (link: &quot;my professional website&quot;)[(open-url: &quot;http://cedarinstructionaldesign.weebly.com&quot;)].
 
-[[Start over|frukost1]]</tw-passagedata><tw-passagedata pid="24" name="speech1" tags="" position="673.5,784.5" size="100,100">As you head back into the center of the square you see that some sort of [[speech|speech2]] is starting.</tw-passagedata><tw-passagedata pid="25" name="speech2" tags="" position="391.5,763" size="100,100">The mayor of the town begins a long, boring speech. You try to listen but are distracted by the [[sight of someone|speech3]] in the distance. </tw-passagedata><tw-passagedata pid="26" name="kanelbulle" tags="" position="685.5,199" size="100,100">You gotta get the recipe for these!
+[[Start over|godnatt]]</tw-passagedata><tw-passagedata pid="22" name="speech1" tags="" position="807.5,720.5" size="100,100">As you head back into the center of the square you see that some sort of [[speech|speech2]] is starting.
 
-[[Go back|frukost1]]</tw-passagedata><tw-passagedata pid="27" name="bonfire2" tags="" position="978.5,1095" size="100,100">(set: $couple to 1)
+</tw-passagedata><tw-passagedata pid="23" name="speech2" tags="" position="525.5,699" size="100,100">The mayor of the town begins a long, boring speech. You try to listen but are distracted by the [[sight of someone|speech2a]] in the distance. 
+
+After a minute the police chief comes up and, as Sven transates for you, declares that he has an announcement about the murder. 
+
+Everyone in the crowd leans forward in anticipation. He has to hush their murmurs before beginning to [[speak|speech3]].</tw-passagedata><tw-passagedata pid="24" name="kanelbulle" tags="" position="778.5,135" size="100,100">You gotta get the recipe for these!
+
+[[Go back|frukost1]]</tw-passagedata><tw-passagedata pid="25" name="bonfire2" tags="" position="1112.5,1031" size="100,100">(set: $couple to 1)
 &quot;Benny ar död! Är du glad?&quot; He asks her with a smile.
 
 She frowns, &quot;Benny var inte en bra man. Men att dö är alltid synd!&quot;
@@ -183,32 +167,56 @@ She frowns, &quot;Benny var inte en bra man. Men att dö är alltid synd!&quot;
 (if: $man is 0)[[[Look back at the fire|bonfire]]]
 
 (if: $man is 1 and $couple is 1)[(print:[[Go back to Sven and Lotta|torget]])]
-</tw-passagedata><tw-passagedata pid="28" name="kiosk2" tags="" position="743.5,1109" size="100,100">&quot;Benny! Ha! Nu vet alla om dig!&quot; You see someone speak. It is Fredrik! He limps away clutching the newspaper. 
+</tw-passagedata><tw-passagedata pid="26" name="kiosk2" tags="" position="877.5,1030" size="100,100">&quot;Benny! Ha! Nu vet alla om dig!&quot; You see someone speak. It is Fredrik! He limps away clutching the newspaper. 
 
-[[&quot;Hej, Fredrik!&quot;|kiosk3]]</tw-passagedata><tw-passagedata pid="29" name="kiosk3" tags="" position="804.5,1258" size="100,100">Lost in his thoughts, he doesn&#39;t hear you.
+[[&quot;Hej, Fredrik!&quot;|kiosk3]]</tw-passagedata><tw-passagedata pid="27" name="kiosk3" tags="" position="938.5,1194" size="100,100">Lost in his thoughts, he doesn&#39;t hear you. 
 
-&quot;God natt, Benny!&quot; he says before storming off into the crowd.
+&quot;God natt, Benny!&quot; he says after looking at the newspaper headline before storming off into the crowd.
 
-[[Go back to Sven and Lotta|torget]]</tw-passagedata><tw-passagedata pid="30" name="kyrken2" tags="" position="948.5,415" size="100,100">You walk up the aisle and see Lars cradling one of his wooden ducks in his hands. 
+[[Go back to Sven and Lotta|torget]]</tw-passagedata><tw-passagedata pid="28" name="kyrken2" tags="" position="1082.5,351" size="100,100">You walk up the aisle and see Lars cradling one of his wooden ducks in his hands. 
 
 He is sitting in the front pew, murmuring to himself.
 
-[[Listen more closely|kyrken3]]</tw-passagedata><tw-passagedata pid="31" name="godnatt" tags="" position="544.5,36" size="100,100">You wake up in the middle of the night.</tw-passagedata><tw-passagedata pid="32" name="man" tags="" position="1108.5,1095" size="100,100">(set: $man to 1)
+[[Listen more closely|kyrken3]]</tw-passagedata><tw-passagedata pid="29" name="godnatt" tags="" position="639.8333435058594,50" size="100,100">You wake up in the middle of the night.
+
+You hear something again, and peer out of the window. The moonlight is brighter than the previous 3 nights and you can make out some distinct snowshoe prints in the yard, leading to and from your window. 
+
+[[You go back to sleep terrified|frukost1]]</tw-passagedata><tw-passagedata pid="30" name="man" tags="" position="1314.5,1031" size="100,100">(set: $man to 1)
 &quot;Jag älskar flammarna! Så vackra!&quot; he says to you in a trance, the flames reflecting in his eyes.
 
 (if: $couple is 0)[[[Alrighty then|bonfire]]]
 
-(if: $man is 1 and $couple is 1)[(print:[[Go back to Sven and Lotta|torget]])]</tw-passagedata><tw-passagedata pid="33" name="frukost3" tags="" position="1002.8333435058594,91" size="100,100">&quot;Murder!&quot; Sven confirms.
+(if: $man is 1 and $couple is 1)[(print:[[Go back to Sven and Lotta|torget]])]</tw-passagedata><tw-passagedata pid="31" name="frukost3" tags="" position="1136.8333435058594,27" size="100,100">&quot;Murder!&quot; Sven confirms.
 
-The article explains how his body was found the previous night under the thawing snow on a nearby hunting path.
+The article explains how his body was found under the thawing snow on a nearby hunting path. 
 
 &quot;Varför tala inte polisen med mig?&quot; Lotta is incredulous that she was left out. 
 
-&quot;He had so many enemies, I wonder who did it?&quot; Sven says in English, almost at the same time.
+&quot;He had so many enemies, I wonder who did it?&quot; Sven says in English, almost at the same time. &quot;They estimate that he was killed Sunday night during the storm!&quot; He looks at Lotta in shock.
 
 You can see Lotta&#39;s brain begin running in overdrive as her detective instinct kicks in. Who did it?
 
-[[&quot;Kanske det är...&quot;|frukost4]]</tw-passagedata></tw-storydata>
+[[&quot;Kanske det är...&quot;|frukost4]]</tw-passagedata><tw-passagedata pid="32" name="hunter" tags="" position="247.5,192" size="100,100">How does it end? 
+
+Who is the killer??
+
+Will you discover your true identity???
+
+Can you get the cinnamon bun recipe from Lotta????
+
+Please stay tuned for updates!
+
+[[end]]</tw-passagedata><tw-passagedata pid="33" name="speech3" tags="" position="382.5,533" size="100,100">Suddenly, you hear a loud CRACK as the bonfire collapses onto the square. Everyone manages to jump out of the way, but one huge timber log rolls into the stage, smashing it into pieces and sending the police chief to the ground, unconscious. 
+
+Everyone starts escaping the square. You know this is no coincidence, it must have been done by someone as a distraction. Reacting quickly, you see Lars running towards the river, Annika into her shop, and Frederik into the park.
+
+You look at Lotta and decide to act. Tell her to chase after:
+
+[[Lars|hunter]], the hunter.
+
+[[Annika|butcher]], the butcher.
+
+[[Fredrik|gambler]], the gambler.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
